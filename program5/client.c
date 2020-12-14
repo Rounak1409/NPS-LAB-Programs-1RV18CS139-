@@ -36,7 +36,7 @@ int main(){
 
 	if(connect(clientSocket, (struct sockaddr*) &serverAddr, sizeof(serverAddr)) < 0) return 0;
 
-	printf("Connection established ............\n");
+	printf("Connection established to Rounak's server ............\n");
 
 	pthread_t thread;
 	pthread_create(&thread, NULL, doRecieving, (void *) &clientSocket );
