@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdio.h>
 #include<stdlib.h>
-#define HELLO_PORT 12345
+#define HELLO_PORT 12345//
 #define HELLO_GROUP "225.0.0.37"
 int main(int argc, char *argv[])
 {
