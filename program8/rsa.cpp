@@ -10,7 +10,7 @@ return b;
 if(b == 0)
 return a;
 return gcd(b, a%b);
-}
+}//
 long int isprime(long int a)
 {
 int i;
