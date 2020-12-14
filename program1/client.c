@@ -4,7 +4,7 @@
 #include <sys/socket.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <fcntl.h>
+#include <fcntl.h>//
 #include <netinet/in.h>
 
 int main(int argc, char *argv[])
